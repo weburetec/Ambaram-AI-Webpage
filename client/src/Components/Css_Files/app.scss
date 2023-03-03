@@ -1,0 +1,6 @@
+@import '../../Assets/mixins';
+body{
+  margin:0px;
+  padding:0px;
+  @include primeFont();
+}

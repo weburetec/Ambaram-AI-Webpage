@@ -1,0 +1,63 @@
+@import '../../Assets/mixins';
+.editPage{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 2vw;
+.formContainer{
+    display: flex;
+    justify-content: center;
+    margin: 5vh 0 0 0;
+    gap:2vw;
+    .form{
+        border-radius: 5px;
+        width: 28vw;
+        padding: 1.5vh;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        .features{
+            display: flex;
+            justify-content: space-between;
+            gap: 1vw;
+        }
+        .features>div:nth-child(2){
+            margin-top: 3.3vh;
+        }
+        .batch{
+            font-size: 30px;
+            font-weight: 500;
+            
+        }
+       
+        button{
+           background-color: #6161ff; 
+           border: 0px solid; 
+           color: $white;
+           font-size: 18px;
+           height: 6vh;
+           margin: 2vh 0 0 0;
+           border-radius: 5px;
+        }
+            label{
+                font-size: 16px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .tags{
+                display: flex;
+                justify-content: space-between;
+                gap:0.5vw;
+            }
+            .tags>p{
+                margin-top: -0vh;
+            }
+    }
+
+}
+.submit{
+    background-color: #6161ff; 
+           border: 0px solid; 
+           color: $white;
+           font-size: 18px;
+           height: 6vh;
+           margin: 2vh 0 0 0;
+           border-radius: 5px;
+           align-items: center;
+}
+}

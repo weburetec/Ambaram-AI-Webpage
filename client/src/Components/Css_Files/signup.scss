@@ -1,0 +1,50 @@
+@import '../../Assets/mixins';
+.signupPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh 0 0 0;
+    .form{
+        border-radius: 5px;
+        width: 25vw;
+        padding: 2vh;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        .batch{
+            font-size: 30px;
+            font-weight: 500;
+            
+        }
+        .already{
+            text-align: center;
+            font-size: 13px;
+
+        }
+        .password{
+            position: relative;
+            display: flex;
+
+        }
+        .password>div:nth-child(2){
+            position: absolute;
+            margin: 4.5vh 0 0 22.5vw;
+            font-size:18px;
+            cursor:pointer;
+
+        }
+        button{
+           width: 25vw;
+           background-color: #6161ff; 
+           border: 0px solid; 
+           color: $white;
+           font-size: 18px;
+           height: 6vh;
+           margin: 2vh 0 0 0;
+           border-radius: 5px;
+        }
+            label{
+                font-size: 16px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+    }
+
+}

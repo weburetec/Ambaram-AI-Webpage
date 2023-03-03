@@ -1,0 +1,43 @@
+@import '../../Assets/mixins';
+.footer{
+    display: flex;
+    border: 1px solid;
+    justify-content: center;
+    gap:2vw;
+    padding: 5vh;
+    margin-top: 2vh;
+    background-color: #6161ff;
+    color: $white;
+    .monday{
+        font-size: 40px;
+    }
+
+}
+.footer>div{
+    width: 30%;
+    background-color: #6161ff;
+}
+.footer>div:nth-child(1){
+    border-right: 3px solid $white;
+}
+.footer>div:nth-child(2){
+    text-align: center;
+    border-right: 3px solid $white;
+}
+.footer>div:nth-child(3){
+    display: flex;
+    justify-content: center;
+    line-height: 1px;
+}
+.footer>div:nth-child(3)>div>div{
+    display: flex;
+    width: 8vw;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyRight{
+    text-align: center;
+    background-color: black;
+    border: 1px solid black;
+    color: #ffffff;
+}

@@ -1,0 +1,173 @@
+@import '../../Assets/mixins';
+
+.topHeading{
+  text-align: center;
+
+  .tagColor{
+    color:#68df23
+  }
+  .banner{
+    height: 880px;
+    width: 1500px;
+  }
+  .banner+h1{
+   color: #6161ff;
+  }
+  .getStartedBtnInHeading{
+    color:$white;
+    background-color: #6161ff;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    height: 6vh;
+    width: 12vw;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .getStartedBtnInHeading:hover{
+    background-color: gray;
+    transition: ease-in-out 0.5s;
+  }
+}
+
+.elementor-shape[data-negative=false].elementor-shape-bottom, .elementor-shape[data-negative=true].elementor-shape-top {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.elementor-31 .elementor-element.elementor-element-f7b0043 > .elementor-shape-bottom svg {
+  height: 47px;
+}
+.elementor-shape-bottom:not([data-negative=true]) svg {
+  z-index: -1;
+}
+.elementor-shape svg {
+  display: block;
+  width: calc(100% + 1.3px);
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.elementor-31 .elementor-element.elementor-element-f7b0043 > .elementor-shape-bottom .elementor-shape-fill {
+  fill: #FFFFFF54;
+}
+.elementor-shape .elementor-shape-fill {
+  fill: #fff;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+.elementor-shape-bottom {
+  margin-top: -125px;
+  -webkit-transform: rotate(180deg);
+}
+.elementor-shape {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  direction: ltr;
+}
+
+.featuresListInner {
+  background-image: url(https://app.ambaram.ai/static/media/bgImg.4331a82….png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  margin-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 50px;
+}
+
+.daynmikButtons{
+    display: flex;
+    justify-content: space-between;
+    margin: 3vh 3vw 0 3vw;
+
+    .dropDown{
+      display: flex;
+      align-items: center;
+      gap:1vw;
+      .select{
+       width: 15vw;
+      }
+    }
+    .yearlyStyle{
+        display: flex;
+        p:hover{
+            color: #6161ff;
+            cursor: pointer;            
+        }
+    }
+  }
+  .cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 3vh 3vw 0 3vw;
+    gap: 0.8vw;
+  }
+  .featureList{
+    margin: 3vh 3vw 0 3vw;
+
+
+  .listHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .listHeading>h1{
+    color: #6161ff;
+  }
+  .TableHeading{
+    display: flex;
+    justify-content: space-around;
+  }
+  .TableHeading>div{
+    width: 13vw;
+    align-self: center;
+  }
+  .TableHeading>div:nth-child(1){
+    width: 18vw;
+  }
+  .tryFreebtn{
+    border-radius: 10px;
+    background-color: #6161ff;
+    color: $white;
+    border: 0 solid;
+    width: 9vw;
+    height: 4vh;
+    padding: 10px;
+}
+.tryFreebtn:hover{
+  background-color: gray;
+  transition: ease-in-out 0.5s;
+}
+.essentials{
+  border-bottom: 1px solid rgb(218, 213, 213);
+  padding-left: 2vh;
+  
+}
+.essentialsHead{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.CompletefeaturesList{
+  margin-top: 3vh;
+  padding: 1vh;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #f2f4f6;
+
+}
+
+}

@@ -1,0 +1,37 @@
+@import '../../Assets/mixins';
+  .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0vh 2vw 0vh 2vw;
+  }
+  .childContainer{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    font-size: $heading-size;
+    .logoImage{
+      font-size: 28px;
+      color: #6161ff;
+      cursor: pointer;
+      letter-spacing: 1px;
+
+    }
+    .getStartedBtn{
+      color: $white;
+      border: 0px solid;
+      border-radius: 10px;
+      background-color:#6161ff;
+      padding: 1.5vh 2vh 1.5vh 2vh;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      cursor: pointer;
+    }
+    .getStartedBtn:hover{
+      background-color: gray;
+      transition: ease-in-out 0.5s;
+    }
+  }
+  .childContainer>p{
+    cursor: pointer;
+  }
